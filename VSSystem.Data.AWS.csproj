@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Evidence IQ</Authors>
+    <Copyright>Evidence IQ</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.3</Version>
+	  <FileVersion>1.0.3</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl />
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../VSSystem.Data/VSSystem.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.9.34" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.7.2.84" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+  </ItemGroup>
+
+  </Project>
